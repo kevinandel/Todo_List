@@ -1,0 +1,67 @@
+body {
+  font-family: Arial;
+}
+
+.todo-title {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgba(57, 44, 0, 0.854);
+}
+
+.todo-grid,
+.todo-input-grid {
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  column-gap: 15px;
+  row-gap: 10px;
+  align-items: center;
+}
+
+.todo-input-grid {
+  align-items: start;
+  margin-bottom: 10px;
+}
+
+.name-input,
+.due-date-input {
+  font-size: 15px;
+  padding: 10px;
+  background-color: rgb(215, 215, 215);
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0 0 5px rgba(201, 201, 201, 0.628);
+}
+
+.error-message {
+  color: rgb(188, 0, 0);
+  font-size: small;
+}
+
+
+.name-input {
+  padding: 11px;
+}
+
+.add-todo-button {
+  font-weight: bold;
+  font-size: 15px;
+  padding: 11px;
+  color: rgb(64, 64, 64);
+  background-color: rgb(232, 225, 34);
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0 0 5px rgba(110, 127, 44, 0.598);
+  cursor: pointer;
+}
+
+.delete-todo-button {
+  padding: 11px;
+  color: rgba(0, 0, 0, 0.648);
+  background-color: rgba(210, 18, 18, 0.922);
+  border: none;
+  border-radius: 2px;
+  font-size: 15px;
+  font-weight: bold;
+  box-shadow: 0 0 5px rgba(87, 44, 41, 0.598);
+  cursor: pointer;
+}
